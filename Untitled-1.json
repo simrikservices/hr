@@ -1,0 +1,41 @@
+{
+  "_createdAt": "2022-04-05T08:10:03Z",
+  "_id": "44a45c6b-426b-407c-b461-6cf8b9756cd7",
+  "_rev": "hYLsQG3oScJVayH0KI13pw",
+  "_type": "candidate",
+  "_updatedAt": "2022-04-05T15:15:18Z",
+  "address": "Balaju",
+  "author": "admin",
+  "bloodgroup": "A+",
+  "categories": [
+    { "_key": "72d6b94c79ec", "_ref": "10", "_type": "reference" },
+    { "_key": "af8fccf81f41", "_ref": "11", "_type": "reference" },
+    { "_key": "b35428cf3e49", "_ref": "7", "_type": "reference" }
+  ],
+  "citizenshipno": "12345",
+  "city": "Kathmandu",
+  "content": [
+    { "_key": "26d74428b50a", "_type": "block", "children": [{ "_key": "451461fe3c5d", "_type": "span", "marks": [], "text": "Cool guy actually" }], "markDefs": [], "style": "normal" },
+    { "_key": "5c009d3890f1", "_type": "block", "children": [{ "_key": "b59c1ca746b8", "_type": "span", "marks": [], "text": "Very very intellegent and lovely" }], "markDefs": [], "style": "normal" },
+    { "_sanityAsset": "image@file://./images/191eb3c6983e90d93de96e630b5d7a56d6875706-1200x326.png", "_key": "f036f2677b28", "_type": "image" }
+  ],
+  "country": "Nepal",
+  "education": "SLC",
+  "ex": "Army",
+  "fathername": "Suman",
+  "featured_image": "imagename.jpg",
+  "height": "5'4\"",
+  "keyskills": "Running",
+  "languages": [
+    { "_key": "c5c112569a43", "_ref": "l4", "_type": "reference" },
+    { "_key": "31208dd17d7f", "_ref": "l6", "_type": "reference" }
+  ],
+  "marts": "None",
+  "mothername": "Sujata",
+  "passportissuedfrom": "Kathmandu",
+  "passportno": "7383229393",
+  "phone": "9876765544",
+  "photo": { "_sanityAsset": "image@file://./images/a9e210ec5b56d9ea3da7ffd94310d359cef4e149-150x172.jpg", "_type": "image" },
+  "sex": "Female",
+  "title": "Arati Gurung"
+}
