@@ -1,6 +1,6 @@
-{"_id":"l1","_type": "language", "name": "Arab"}
-{"_id":"l2","_type": "language", "name": "Chinese - Cantonese"}
-{"_id":"l3","_type": "language", "name": "Chinese - Mandarin"}
-{"_id":"l4","_type": "language", "name": "English"}
-{"_id":"l5","_type": "language", "name": "Hindi"}
-{"_id":"l6","_type": "language", "name": "Nepali"}
+{"_id":"Arab","_type": "language", "name": "Arab"}
+{"_id":"Chinese-Cantonese","_type": "language", "name": "Chinese - Cantonese"}
+{"_id":"Chinese-Mandarin","_type": "language", "name": "Chinese - Mandarin"}
+{"_id":"English","_type": "language", "name": "English"}
+{"_id":"Hindi","_type": "language", "name": "Hindi"}
+{"_id":"Nepali","_type": "language", "name": "Nepali"}

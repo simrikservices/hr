@@ -4,8 +4,8 @@ export default {
   type: "document",
   fields: [
     {
-      name: "title",
-      title: "Title",
+      name: "name",
+      title: "Name",
       type: "string",
     },
     {
@@ -21,6 +21,11 @@ export default {
     {
       name: "address",
       title: "Address",
+      type: "string",
+    },
+    {
+      name: "email",
+      title: "Email",
       type: "string",
     },
     {
@@ -66,7 +71,7 @@ export default {
     {
       name: "content",
       title: "About",
-      type: "blockContent",
+      type: "text",
     },
     {
       name: "featured_image",
@@ -98,7 +103,12 @@ export default {
     },
     {
       name: "citizenshipno",
-      title: "Cintizenship No.",
+      title: "Citizenship No.",
+      type: "string",
+    },
+    {
+      name: "citizenissuedfrom",
+      title: "Citizenship From.",
       type: "string",
     },
     {
@@ -111,17 +121,16 @@ export default {
       title: "Passport Issud From",
       type: "string",
     },
+
     {
       name: "categories",
       title: "Categories",
-      type: "array",
-      of: [{ type: "reference", to: { type: "category" } }],
+      type: "string",
     },
     {
       name: "languages",
       title: "Languages",
-      type: "array",
-      of: [{ type: "reference", to: { type: "language" } }],
+      type: "string",
     },
 
     {
