@@ -9,5 +9,6 @@
 {"_id":"Hopitality","_type": "category", "name":"Hospitality"}
 {"_id":"Hospitality-Culinary","_type": "category", "name":"Hospitality-Culinary"}
 {"_id":"House-keeping","_type": "category", "name":"House-keeping"}
-{"_id":"Store-Keepers","_type": "category", "name":"Store Keepers"}
+{"_id":"Store-Keeper","_type": "category", "name":"Store Keepers"}
 {"_id":"K9","_type": "category", "name":"K9"}
+{"_id":"Bouncer","_type": "category", "name":"Bouncer"}
