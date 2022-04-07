@@ -128,11 +128,22 @@ export default {
       type: "string",
     },
     {
+      name: "jobcategories",
+      title: "Job Categories",
+      type: "array",
+      of: [{ type: "reference", to: { type: "category" } }],
+    },
+    {
       name: "languages",
       title: "Languages",
       type: "string",
     },
-
+    {
+      name: "candidatelanguages",
+      title: "Languages (Read/Write/Speak)",
+      type: "array",
+      of: [{ type: "reference", to: { type: "language" } }],
+    },
     {
       name: "bloodgroup",
       title: "Blood Group",
