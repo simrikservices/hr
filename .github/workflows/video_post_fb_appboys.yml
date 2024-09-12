@@ -1,0 +1,27 @@
+name: Post Video to Facebook
+
+on:
+  workflow_dispatch:
+    inputs:
+      video_url:
+        description: "Public URL of the video"
+        required: true
+      title:
+        description: "Title of the video"
+        required: true
+      description:
+        description: "Description of the video"
+        required: true
+
+jobs:
+  post_video:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Trigger Node.js script on VPS
+      run: |
+        ssh -o StrictHostKeyChecking=no ${{ secrets.VPS_USER }}@${{ secrets.VPS_IP }} \
+        "cd /path-to-nodejs-app && node postVideo.js '${{ github.event.inputs.video_url }}' '${{ github.event.inputs.title }}' '${{ github.event.inputs.description }}'"
