@@ -21,6 +21,9 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
+    - name: Install expect on GitHub runner
+      run: sudo apt-get update && sudo apt-get install -y expect
+
     - name: Use expect to SSH into VPS and run Node.js script
       run: |
         expect -c "
@@ -28,7 +31,7 @@ jobs:
         expect \"password:\";
         send \"${{ secrets.VPS_PASSWORD }}\r\";
         expect \"\$ \";  # Wait for the shell prompt
-        send \"cd /path-to-nodejs-app && node postVideo.js '${{ github.event.inputs.video_url }}' '${{ github.event.inputs.title }}' '${{ github.event.inputs.description }}'\r\";
+        send \"cd /home/sudeep/fbauto && node postVideo.js '${{ github.event.inputs.video_url }}' '${{ github.event.inputs.title }}' '${{ github.event.inputs.description }}'\r\";
         expect \"\$ \";  # Wait for the shell prompt after the command runs
         send \"exit\r\";
         interact"
